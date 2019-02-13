@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Aahar admin</title>
+	<style type="text/css">
+        
+		div.container{
+			border-style: solid;
+			border-width: 3px;
+			border-color: #000;
+			border-radius: 4px;
+			text-align: center;
+			margin: auto;
+			width: 300px;
+			height: 400px;
+		}
+		h2{
+			padding-top: 40px;
+		}
+		form{
+			padding-top: 40px;
+		}
+		form #logIn{
+			margin-top: 30px;
+			padding: 8px;
+			font-size: 15px;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+	<h2>Aahar Admin Portal</h2>
+	<form>
+		username:  <input type="text" name="username" /><br><br>
+		password:  <input type="password" name="password" /><br><br>
+		<input type="button" onclick="logIn()" value="Log in" id="logIn" />
+	</form>
+    </div>
+
+</body>
+</html>

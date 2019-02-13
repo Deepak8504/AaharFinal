@@ -1,0 +1,225 @@
+* {
+  box-sizing: border-box;
+  transition: all ease-in-out 250ms;
+}
+
+
+
+#logo{
+	
+       margin-top: 3.5em;
+       margin-left: 8.125em;
+      /* width:100%;*/
+       
+}
+#pic2{
+       
+       margin-top: 0em;
+      height: 2.8125em;
+      width: 7em;
+   /* width: 70px;*/
+
+}
+a:link{
+  color: black;
+  text-decoration: none;
+}
+a:visited{
+  color: #ffc107;
+  text-decoration: underline;
+}
+ a:active{
+  color: #ffc107;
+  text-decoration: underline; 
+}
+@media(min-width: 30em)
+{
+#menu1{
+	margin-left: 40.625em;
+	width: 3.6875em;
+  height: 1.375em;
+  float: left;
+
+}
+#home{
+
+  opacity: 0.6;
+  font-family: Montserrat;
+  font-size: 1.125em;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  padding-top: 0.625em;
+  letter-spacing: normal;
+  
+}
+#menu2{
+	margin-left: 5em;
+	width: 4.375em;
+  height: 1.375em;
+  float: left;
+  
+
+}
+#AboutUs{
+
+  opacity: 0.6;
+  font-family: Montserrat;
+  font-size: 1.125em;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  padding-top: 0.625em;
+  letter-spacing: normal;
+  width: 5.625em;
+}
+#menu3{
+	margin-left: 5em;
+	width: 3.6875em;
+  height: 1.375em;
+  float: left;
+
+}
+#Donation{
+
+  opacity: 0.6;
+  font-family: Montserrat;
+  font-size: 1.125em;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  padding-top: 0.625em;
+  letter-spacing: normal;
+  
+}
+#menu4{
+	margin-left: 5em;
+  width: 3.6875em;
+  height: 1.375em;
+  float: left;
+
+}
+#join{
+
+  opacity: 0.6;
+  font-family: Montserrat;
+  font-size: 1.125em;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  padding-top: 0.625em;
+  letter-spacing: normal;
+  
+}
+}
+#part1{
+	padding-top: 18.75em;
+/*	width: 100%;*/
+	min-height: 0.0625em;
+/*	width: 344px;
+  height: 58px;*/
+  
+
+}
+#why{
+ padding-top: 0em;
+ margin-top: .50em;
+ margin-left: 13.156em;
+ /* padding-left: 37.5em;*/
+  font-family: Montserrat;
+  font-size: 2.875em;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  
+  letter-spacing: normal;
+  
+  
+}
+}
+#part1:before{
+       margin-left: 40.625em;
+       border-top : 0.1875em solid #F9BF3B;
+  content: '';
+  display: block;
+  height: 100%;
+  width: 13.5em;
+
+}
+#part2{
+	margin-top: 2.5em;
+	width: 68.75em;
+  height: 22.8125em;
+  margin-left: 10.625em;
+}
+#content{
+	
+  object-fit: contain;
+  font-family: Montserrat;
+  font-size: 1.125em;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  
+  letter-spacing: normal;
+  
+
+}
+.part3{
+/*	width: 100%;*/
+       height: 15.625em;
+       margin-top: 9.375em;
+       background-color: #ffc107;
+}
+
+#ph{
+	width: 5.875em;
+  height:1.25em;
+  font-family: Montserrat;
+  font-size: 1.125em;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.53;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffc107;
+}
+#sub1{
+	width: 20.125em;
+  height: 1.8125em;
+  margin-top: 2.5em;
+  margin-left: 37.5em;
+
+}
+#info{
+  padding-top: 5.625em;
+  font-family: Montserrat;
+  font-size: 1.25em;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  color: white;
+  letter-spacing: normal;
+  text-align: left;
+  
+}
+#sub2{
+	width: 20.125em;
+  height: 1.8125em;
+  margin-top: 2.5em;
+  margin-left: 34.375em;
+
+}
+#email{
+  padding-top: 5.625em;
+  font-family: Montserrat;
+  font-size: 1.5em;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  color: white;
+  letter-spacing: normal;
+  text-align: left;
+  
+}
