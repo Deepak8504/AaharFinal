@@ -38,6 +38,12 @@ body{
       height: 33px;
       width: 110px;
 }
+@media(max-width: 425px){
+  #pic2{
+    margin-left: 30px;
+    height: 30px;
+  }
+}
 a{
   text-decoration: none;
 }
@@ -69,6 +75,11 @@ a:hover{
 {.navbar{
       margin-right: 40px;
       }
+}
+@media(max-width: 425px){
+  .navbar{
+    margin-right: 20px; 
+  }
 }
 .home{
   float: left;
@@ -191,6 +202,13 @@ a:hover{
 .icon-bar{
   border-top : 2px solid #F9BF3B;
 }
+@media(max-width: 800px){
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: #F9BF3B;
+    width: 90%;
+    margin-left: 10%;
+}
+}
 
 .main1{
   width: 35%;
@@ -202,6 +220,12 @@ a:hover{
 @media(max-width: 1000px){
   .main1{
     width: 80%;
+    margin-top: 100px;
+  }
+}
+@media(max-width: 425px){
+  .main1{
+    margin-left: 30px;
   }
 }
 .main1:before{
@@ -290,8 +314,14 @@ a:hover{
     margin-top: 700px;
   }
 }
+
 .pic3{
       margin-top: 0px;
+}
+@media(max-width: 425px){
+  .pic3{
+    width: 60%;
+  }
 }
 .sub5{
       position: relative;
@@ -299,6 +329,11 @@ a:hover{
       margin-top: 800px;
       min-height: 1px;
       width:100%;
+}
+@media(max-width: 425px){
+ .sub5{
+      padding-top: 180px;
+ }
 }
 .sub5:before{
       margin:auto;
@@ -349,18 +384,15 @@ a:hover{
 .con1{
     margin-bottom: 0px;
     margin-top: 44px;
-    height: 29px;
     font-family: Montserrat;
     font-weight: 590;
     font-size: 21px;
     font-style: normal;
     font-stretch: normal;
     letter-spacing: normal;
-    text-align: left;
-  
+    text-align: left;  
 }
 .con2{
-    height: 49px;
     font-family: Montserrat;
     font-size: 14px;
     font-weight: lighter;
@@ -411,14 +443,43 @@ a:hover{
   margin-left: 6%;
   margin-right: 6%; 
 }
+@media(max-width: 1170px){
+  .part3x{
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+@media(max-width: 991px){
+  .part3x{
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+}
+@media(max-width: 640px){
+  .part3x{
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
+@media(max-width: 490px){
+  .part3x{
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+@media(max-width: 991px){
+.img-responsive{
+  width: 50%;
+}
+}
 .part4x{
   height: 300px;
-  margin-right: 
   margin: auto;  
 }
+
 #add1{
   position: absolute;
-  width:90%;
+  width:89%;
   min-width: 200px;
   max-width: 350px;
   height:200px;
@@ -426,6 +487,11 @@ a:hover{
   border-radius: 10px 10px 0px 10px;     
   background-color: #ffffff;
   box-shadow: -2px 2px 1px 0 rgba(0, 0, 0, 0.16);
+}
+@media(max-width: 425px){
+  #add1{
+    height: 170px;
+  }
 }
 #mess{
   margin-left: 20px;
@@ -440,11 +506,11 @@ a:hover{
   letter-spacing: normal;
   text-align: left;
 }
+
 #bhawan{
   margin-left: 20px;
   margin-top: 15px;
   margin-bottom: 15px;
-  height: 32px;
   font-family: Montserrat;
   font-size: 16px;
   font-weight: normal;
@@ -452,6 +518,14 @@ a:hover{
   font-stretch: normal;
   letter-spacing: normal;
   text-align: left;
+}
+@media(max-width: 425px){
+  #bhawan{
+    margin-top: 5px;
+    width: 130px;
+    margin-bottom: 0px;
+    font-size: 15px;
+  }
 }
 #adjacent{
   position: relative;
@@ -462,10 +536,24 @@ a:hover{
   border-radius: 0px 10px 10px 0px;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16);
 }
+@media(max-width: 425px){
+  #adjacent{
+    width: 110px;
+    height: 168px;
+  }
+}
+.pras{
+  margin-top: 10px; 
+  margin-left: 35px;
+}
+@media(max-width: 425px){
+  .pras{
+    margin-left: 15px;
+  }
+}
 #leaderx{
   margin-top: 4px;
   margin-bottom: 5px;
-  height: 18px;
   font-family: Montserrat;
   font-size: 12px;
   font-weight: normal;
@@ -474,10 +562,14 @@ a:hover{
   letter-spacing: normal;
   text-align: center;
 }
+@media(max-width: 425px){
+  #leaderx{
+    margin-bottom: 0px;
+  }
+}
 #namex{
   margin-top: 5px;
   margin-bottom: 0px;
-  height: 24px;
   font-family: Montserrat;
   font-size: 16px;
   font-weight: normal;
@@ -485,6 +577,12 @@ a:hover{
   font-stretch: normal; 
   letter-spacing: normal;
   text-align: center;
+}
+@media(max-width: 425px){
+  #namex{
+    font-size: 15px;
+    margin-top: 4px;
+  }
 }
 #button2{
   background-color: #F9BF3B;
@@ -505,11 +603,22 @@ a:hover{
   padding-top: 10px;
   padding-bottom: 10px;
   margin: auto;
-  margin-top: 21px;  
+  margin-top: 24px;  
   box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.16);
   width: 150px;
   font-weight: 500;
 
+}
+@media(max-width: 425px){
+  #button2{
+    font-size: 15px;
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 112px;
+    margin-top: 6px;
+    padding-top: 8px;
+    padding-bottom: 5px; 
+  }
 }
 #button2:hover{
   background-color: #FCB321;
@@ -569,11 +678,21 @@ i{
   background-color: #ffffff;
   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
 }
+@media(max-width: 425px){
+  .box1{
+    width: 270px;
+  }
+}
 .pic7{
   margin-left: 85px;
   margin-right: 35px;    
   height: 170px;
   margin-top: 15px;
+}
+@media(max-width: 425px){
+  .pic7{
+    margin-left: 50px;
+  }
 }
 #anchit{
   margin-top: 10px;
@@ -590,7 +709,6 @@ i{
 #story1{
   margin-left: 30px;
   margin-top: 28px;
-  height: 131px;
   font-family: Montserrat;
   font-size: 13px;
   font-weight: normal;
@@ -612,6 +730,12 @@ i{
   .sub10{
     margin-top: 50px;
     padding-left: 40px;
+  }
+}
+@media(max-width: 425px){
+  .sub10{
+    margin-top: 40px;
+    padding-left: 0px; 
   }
 }
 #inspi{
@@ -666,10 +790,21 @@ i{
        margin-top: 280px;
        background-color: #ffc107;
 }
+@media(max-width: 500px){
+  .sub13{
+    margin-top: 200px;
+  }
+}
+
 #pic13{
       margin-left: 20%;
       margin-top: 80px;
       width: 300px;
+}
+@media(max-width: 425px){
+  #pic13{
+    margin-left: 0px;
+  }
 }
 .sub14{
       padding-left: 10%;
@@ -702,6 +837,11 @@ i{
   font-weight: 570;
   margin-top: 0px;
 }
+@media(max-width: 425px){
+  #no{
+    font-size: 16px;
+  }
+}
 #email1{
   margin-bottom: 5px;
   font-family: montserrat;
@@ -719,6 +859,11 @@ i{
   font-family: montserrat;
   font-weight: 570;
   margin-top: 0px;
+}
+@media(max-width: 425px){
+  #mail{
+    font-size: 16px;
+  }
 }
 #pic14{
   width: 32px;

@@ -19,6 +19,12 @@ html, body {
       height: 33px;
       width: 110px;
 }
+@media(max-width: 425px){
+  #pic2{
+    margin-left: 30px;
+    height: 30px;
+  }
+}
 a{
   text-decoration: none;
 }
@@ -50,6 +56,11 @@ a:hover{
 {.navbar{
       margin-right: 40px;
       }
+}
+@media(max-width: 425px){
+  .navbar{
+    margin-right: 20px; 
+  }
 }
 .home{
   float: left;
@@ -156,8 +167,23 @@ a:hover{
 .icon-bar{
   border-top : 2px solid #F9BF3B;
 }
+@media(max-width: 800px){
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: #F9BF3B;
+    width: 90%;
+    margin-left: 10%;
+}
+}
 .row{
   margin-top: 180px;
+  width: 100%;
+  margin-left: 15px;
+  margin-right: 15px; 
+}
+@media(max-width: 360px){
+  .row{
+    margin-left: 0px;
+  }
 }
 .part1{
 	width: 100%;
@@ -198,8 +224,16 @@ a:hover{
 .pay{
   height: 320px;
   margin:auto;
+  float: right;
+  margin-right: 30px;
   width: 260px;
   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+}
+@media(max-width: 991px){
+  .pay{
+    float: none;
+    margin-right: auto;
+  }
 }
 #payment{
   text-align: center;

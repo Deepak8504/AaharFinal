@@ -19,6 +19,12 @@ html, body {
       height: 33px;
       width: 110px;
 }
+@media(max-width: 425px){
+  #pic2{
+    margin-left: 30px;
+    height: 30px;
+  }
+}
 a{
   text-decoration: none;
 }
@@ -50,6 +56,11 @@ a:hover{
 {.navbar{
       margin-right: 40px;
       }
+}
+@media(max-width: 425px){
+  .navbar{
+    margin-right: 20px; 
+  }
 }
 .home{
   float: left;
@@ -156,14 +167,28 @@ a:hover{
 .icon-bar{
   border-top : 2px solid #F9BF3B;
 }
+@media(max-width: 800px){
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: #F9BF3B;
+    width: 90%;
+    margin-left: 10%;
+}
+}
 #bg{
   position: absolute;
   right: 0px;
-  margin-top: 180px;
+  margin-top: 170px;
 }
 .emptyMsg{
+  margin: auto;
   margin-top: 300px;
   width: 100%;
+}
+@media(max-width: 430px){
+  .emptyMsg{
+    margin-top: 250px;
+    width: 90%
+  }
 }
 #msg{
   text-align: center;
@@ -172,13 +197,18 @@ a:hover{
   opacity: 0.5;
   color: #242424;
 }
+@media(max-width: 400px){
+  #msg{
+    font-size: 26px;
+  }
+}
 .sub13{
        margin-top: 400px;
        background-color: #ffc107;
 }
 @media(max-width: 600px){
   .sub13{
-    margin-top: 200px;
+    margin-top: 220px;
   }
 }
 .container{
@@ -188,6 +218,11 @@ a:hover{
       margin-left: 20%;
       margin-top: 80px;
       width: 300px;
+}
+@media(max-width: 425px){
+  #pic13{
+    margin-left: 0px;
+  }
 }
 .sub14{
       padding-left: 10%;
@@ -220,6 +255,11 @@ a:hover{
   font-weight: 570;
   margin-top: 0px;
 }
+@media(max-width: 425px){
+  #no{
+    font-size: 16px;
+  }
+}
 #email1{
   margin-bottom: 5px;
   font-family: montserrat;
@@ -237,6 +277,11 @@ a:hover{
   font-family: montserrat;
   font-weight: 570;
   margin-top: 0px;
+}
+@media(max-width: 425px){
+  #mail{
+    font-size: 16px;
+  }
 }
 #pic14{
   width: 32px;
