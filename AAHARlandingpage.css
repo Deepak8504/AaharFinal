@@ -308,6 +308,11 @@ a:hover{
        margin-top: 800px;
        height:360px;    
 }
+@media(max-width: 1000px){
+  .part2{
+     margin-top: 500px;
+  }
+}
 @media(max-width: 600px){
   .part2{
     width: 70%;
@@ -330,9 +335,16 @@ a:hover{
       min-height: 1px;
       width:100%;
 }
-@media(max-width: 425px){
+
+@media(max-width: 1000px){
+  .sub5{
+     margin-top: 500px;
+  }
+}
+@media(max-width: 600px){
  .sub5{
-      padding-top: 180px;
+      padding-top: 190px;
+      margin-top: 800px;
  }
 }
 .sub5:before{
