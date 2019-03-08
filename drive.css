@@ -16,7 +16,7 @@ html, body {
 #pic2{
       margin-top: 0px;
       margin-left: 60px;  
-      width: 130px;
+      width: 150px;
 }
 @media(max-width: 425px){
   #pic2{
@@ -177,6 +177,220 @@ a:hover{
   position: absolute;
   right: 0px;
   margin-top: 170px;
+}
+#largebox{
+       width: 100%;
+       min-height: 1px;
+       margin-top: 10px;
+       position: relative;
+}
+.sub8{
+       margin-top: 180px;
+       width:100%;
+       min-height: 1px;
+}
+.sub8:before{
+       margin: auto;
+       border-top : 3px solid #F9BF3B;
+       content: '';
+       display: block;
+       height: 100%;
+       width: 17%;
+       min-width: 150px;
+}
+#schedule{
+      
+  font-family: Montserrat;
+  font-size: 40px;
+  margin-top: 25px;
+  font-stretch: normal;
+  letter-spacing: normal;
+  text-align: center;
+}
+.part3x{
+  margin-top:80px;
+  margin-left: 6%;
+  margin-right: 6%; 
+}
+@media(max-width: 1170px){
+  .part3x{
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+@media(max-width: 991px){
+  .part3x{
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+}
+@media(max-width: 640px){
+  .part3x{
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
+@media(max-width: 490px){
+  .part3x{
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+@media(max-width: 991px){
+.img-responsive{
+  width: 50%;
+}
+}
+.part4x{
+  height: 300px;
+  margin: auto;  
+}
+
+#add1{
+  position: absolute;
+  width:89%;
+  min-width: 200px;
+  max-width: 350px;
+  height:200px;
+  float: left;
+  border-radius: 10px 10px 0px 10px;     
+  background-color: #ffffff;
+  box-shadow: -2px 2px 1px 0 rgba(0, 0, 0, 0.16);
+}
+@media(max-width: 425px){
+  #add1{
+    height: 170px;
+  }
+}
+#mess{
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  height: 18px;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  text-align: left;
+}
+
+#bhawan{
+  margin-left: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  text-align: left;
+}
+@media(max-width: 425px){
+  #bhawan{
+    margin-top: 5px;
+    width: 130px;
+    margin-bottom: 0px;
+    font-size: 15px;
+  }
+}
+#adjacent{
+  position: relative;
+  width: 149px;
+  height: 200px;
+  background-color: #f7f7f7;
+  float:right;
+  border-radius: 0px 10px 10px 0px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16);
+}
+@media(max-width: 425px){
+  #adjacent{
+    width: 110px;
+    height: 168px;
+  }
+}
+.pras{
+  margin-top: 10px; 
+  margin-left: 35px;
+}
+@media(max-width: 425px){
+  .pras{
+    margin-left: 15px;
+  }
+}
+#leaderx{
+  margin-top: 4px;
+  margin-bottom: 5px;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  text-align: center;
+}
+@media(max-width: 425px){
+  #leaderx{
+    margin-bottom: 0px;
+  }
+}
+#namex{
+  margin-top: 5px;
+  margin-bottom: 0px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal; 
+  letter-spacing: normal;
+  text-align: center;
+}
+@media(max-width: 425px){
+  #namex{
+    font-size: 15px;
+    margin-top: 4px;
+  }
+}
+#button2{
+  background-color: #F9BF3B;
+  font-size: 16px;
+  font-family: Montserrat;
+  text-align: center;
+  color: white;
+  cursor: pointer;   
+  border-width: 0px;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.21;
+  letter-spacing: normal;
+  border-radius: 0px 0px 10px 0px;
+  margin-bottom: 0px;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: auto;
+  margin-top: 24px;  
+  box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.16);
+  width: 150px;
+  font-weight: 500;
+
+}
+@media(max-width: 425px){
+  #button2{
+    font-size: 15px;
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 112px;
+    margin-top: 6px;
+    padding-top: 8px;
+    padding-bottom: 5px; 
+  }
+}
+#button2:hover{
+  background-color: #FCB321;
 }
 .emptyMsg{
   margin: auto;

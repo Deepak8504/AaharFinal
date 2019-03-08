@@ -19,7 +19,7 @@ html, body {
 #pic2{
       margin-top: 0px;
       margin-left: 60px;  
-      width: 130px;
+      width: 150px;
 }
 @media(max-width: 425px){
   #pic2{
